@@ -10,8 +10,8 @@
   <!--新增包含的子项目-->
   <modules>
     <module>eureka-service</module>
-<!--    <module>product-service</module>-->
-<!--    <module>product-client</module>-->
+    <module>product-service</module>
+    <module>product-client</module>
 <!--    <module>gateway-service</module>-->
   </modules>
   <name>microservice-demo</name>
