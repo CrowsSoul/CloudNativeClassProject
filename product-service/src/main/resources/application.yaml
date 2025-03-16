@@ -20,3 +20,4 @@ eureka:
       lease-expiration-duration-in-seconds: 15     #续约到期时间
     service-url:
       defaultZone: http://localhost:8888/eureka
+

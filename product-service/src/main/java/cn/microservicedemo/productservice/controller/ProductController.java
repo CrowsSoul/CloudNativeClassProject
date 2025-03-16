@@ -24,7 +24,7 @@ public class ProductController {
      */
     @GetMapping("/findByProductId/{productId}")
     public Product findByProductId(@PathVariable Long productId) throws InterruptedException {
-      //  Thread.sleep(2000);
+//        Thread.sleep(2000); // 设置延时以验证熔断
         Product product = productMapper.findByProductId(productId);
         log.info("-------------OK   /findByProductId/{productId}--------------------");
 
