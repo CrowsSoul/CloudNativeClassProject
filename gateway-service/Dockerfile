@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM  docker.m.daocloud.io/library/openjdk:8-jre-alpine
 LABEL maintainer=me
 ENV JAVA_ARGS="-Dfile.encoding=UTF8 -Duser.timezone=GMT+08"
 ENV JAR_FILE="gateway-service.jar"
